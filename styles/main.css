@@ -1,0 +1,50 @@
+
+html, body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+
+#first {
+  width:13%;
+  margin:0 auto;
+  float:left;
+  height:100%;
+  background:#BBBBBB;
+}
+#map {
+  width:87%;
+  margin:0 auto;
+  float:left;
+  height:100%;
+  background:white;
+}
+
+img {
+  width:100%;
+  height:width;
+}
+
+p {
+  font-family: "DomaineDisplayNarrow", Georgia, Arial, sans-serif;
+  font-size:15px;
+  color: #010;
+  padding-left: 7px;
+}
+
+button {
+  border: 2px solid;
+  border-radius: 8px;
+  font-family: "DomaineDisplayNarrow", Georgia, Arial, sans-serif;
+  font-size:16px;
+  color: #010;
+}
+
+
+.green {
+   color: green;
+}
+
+.red {
+   color: red;
+}

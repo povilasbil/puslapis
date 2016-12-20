@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kauno kavinių žemėlapis</title>
+    <link rel="stylesheet" href="/styles/main.css">
+  </head>
+  <body>
+    <div id="first">
+      <img src="assets/logo.jpg" alt="Logotipas">
+      <p>Išalkote?</p>
+      <p>Žemėlapyje galite matyti artimiausias esančias kavines/restoranus.</p>
+      <p><span class="green"> Žalia </span> spalva pažymėtos šiuo metu veikiančios, <span class="red">raudona</span> - neveikiančios</p>
+      <p>Jei norite surasti savo buvimo vietą žemėlapyje, spauskite mygtuką žemiau</p>
+      <button type="button" name="button" onclick="getLocation()">Surasti lokaciją</button>
+    </div>
+
+    <div id="map"></div>
+    <script src="scripts/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+  </body>
+</html>
